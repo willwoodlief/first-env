@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/42297387/docker-build-with-build-arg-with-multiple-arguments 
+works:
+ cat .env | xargs printf -- '--build-arg %s\n' |  xargs docker build -t MY_TAG .
+
+

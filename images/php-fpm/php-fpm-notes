@@ -1,0 +1,4 @@
+k configs
+
+maybe need config at mount at /usr/local/etc/php-fpm.d
+maybe code at /var/www/html
